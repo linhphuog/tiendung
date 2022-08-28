@@ -52,6 +52,6 @@ init();
 
 
 
-var xinChao = "Chúc Mừng Sinh Nhật Linh Lùn Lung Linh Long Lanh Lấp Lánh Lú Lẫn Lạ Lùng Lạc Loài Lệch Lạc Lầm Lì"
+var xinChao = "Chúc Mừng Sinh Nhật Linh Lùn, Lung Linh, Long Lanh, Lấp Lánh, Lồng Lộn, Lú Lẫn, Lạc Loài, Lì Lợm, Liều Lĩnh, Lí Lẽ (Lưu ý: Đây là ý tưởng của Nguyễn Thành Luân nên Nguyễn Việt Anh không biết gì cả)"
 alert(xinChao)
  
