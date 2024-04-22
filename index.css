@@ -46,3 +46,33 @@ button:hover{
 	background-color: #141F64;
 	color: #DDD;
 }
+
+.item:nth-child(1) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/6.jpg);
+}
+
+.item:nth-child(2) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/7.jpg);
+}
+
+.item:nth-child(3) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/5.jpg);
+}
+
+.item:nth-child(4) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/10.jpg);
+}
+
+.item:nth-child(5) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/13.jpg);
+}
+
+.item{
+	background-position: center;
+	background-size: cover;
+	transition: flex 0.8s ease;
+}
+
+.item:hover{
+	flex: 5;
+}
