@@ -1,0 +1,90 @@
+#Menu_text{
+	text-align: center;
+	background-color: #AFB8EC;
+	padding: 80px;
+}
+#xxx{background-color: #EBEBEC;
+}
+
+nav {
+	background-color: #333;
+	padding: 14px 20px;
+	text-align: center;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 40px;
+	top: 0;	
+	right: 0;
+	left: 0;
+}
+nav a {
+	color: white;
+}
+nav a:hover{
+	background-color: #DDD;
+	color: black;
+}
+
+h1{
+	color: red;
+}
+h2{
+	color: blue;
+}
+.avatar{
+	border-radius: 100px;
+}
+.button{
+	margin-bottom: 15px;
+	width: 300px;
+	padding: 15px 0 15px 0;
+	border-radius: 100px;
+	cursor: pointer;
+	background-color: #7A89E5;
+}
+button:hover{
+	background-color: #141F64;
+	color: #DDD;
+}
+
+.gallery{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 500px;
+}
+
+.item{
+	flex: 1;
+	height: 100%;
+}
+
+.item:nth-child(1) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/6.jpg);
+}
+
+.item:nth-child(2) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/7.jpg);
+}
+
+.item:nth-child(3) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/5.jpg);
+}
+
+.item:nth-child(4) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/10.jpg);
+}
+
+.item:nth-child(5) {
+	background-image: url(https://vanh12345.github.io/duong.github.io/13.jpg);
+}
+
+.item{
+	background-position: center;
+	background-size: cover;
+	transition: flex 0.8s ease;
+}
+
+.item:hover{
+	flex: 5;
+}
